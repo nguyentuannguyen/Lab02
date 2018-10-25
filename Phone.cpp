@@ -12,7 +12,7 @@ int main()
 struct phonenumber Yournumber;
 	cout<<"\nEnter your area code,exchange and number: ";
 	cin>>Yournumber.area>>Yournumber.exchange>>Yournumber.number;
-	cout<<"My number is:("<<212<<")"<<767<<"-"<<8900<<endl;
+	cout<<"My number is: (212)767-8900";
 	cout<<"Your number is:("<<Yournumber.area<<")"<<Yournumber.exchange<<"-"<<Yournumber.number<<endl;
 	return 0;
 }
